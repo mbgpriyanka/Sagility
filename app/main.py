@@ -2,6 +2,7 @@ import os
 import logging
 import ssl
 from fastapi import FastAPI,Request
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 import certifi

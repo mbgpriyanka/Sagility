@@ -203,7 +203,7 @@ celerybeat-schedule
 # Environments
 .venv
 rfp_env/
-venv/
+env/
 ENV/
 env.bak/
 venv.bak/
@@ -228,14 +228,8 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python
 
-Bills
 
-test.ipynb
+
+app/src/qnabot.ipynb
 
 app/__pycache__
-
-python3.9
-
-app/src/textract_file.py
-
-Bills\Bills

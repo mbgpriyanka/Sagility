@@ -49,7 +49,8 @@ class Qnabot:
         while True:
             prompt = input("Query is :")
             response = query_engine.query(prompt)
-            print(response)
+            query_response=response["response"]
+            print(query_response)
 
 
     # def message_init(self):
